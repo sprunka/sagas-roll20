@@ -1,0 +1,96 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Creepster&display=swap');
+
+/*
+  Background Images Attribution:
+  - Tileable Classic Nebula Space Pattern 3 by webtreats
+  - Cthulhu-esque silhouette design by Billiam William Babble
+*/
+
+/* General styling */
+body {
+    background-color: #0b3d91; /* Deep cosmic blue */
+    color: #c1c1f5; /* Pale starlight color */
+    font-family: 'IM Fell English SC', serif; /* Elegant but unsettling serif font */
+}
+
+.sheet-body {
+    max-width: 800px;
+    margin: auto;
+    background-color: #1c1c44;
+    border: 5px double #5a5a88;
+    border-radius: 15px;
+    background-image: url('https://peri.vampyrebytes.com/img/cthulhu-symbol-clipart-md.png');
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.sheet-title {
+    font-family: 'Creepster', cursive; /* Eldritch title font */
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #00ff00; /* Base green color */
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00; /* Subtle green glow effect */
+    -webkit-text-stroke: 0.5px #003300; /* Dark green stroke */
+}
+
+
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #a8a8d4; /* Darker cosmic text */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px dashed #5a5a88; /* Dashed mysterious border */
+    background-color: rgba(28, 28, 68, 0.75); /* Darker cosmic background with 75% opacity */
+}
+
+label,
+input,
+textarea,
+select {
+    color: #a8a8d4 !important; /* Darker cosmic text */
+    padding: 5px;
+    font-size: 16px;
+}
+
+input,
+textarea,
+select {
+    background-color: #1c1c44; /* Darker cosmic background */
+    border: 2px solid #5a5a88; /* Mysterious border color */
+}
+
+.custom-button {
+    background-color: #5a5a88 !important; /* Mysterious background */
+    color: #f0e5ff !important; /* Pale cosmic text */
+    border: 2px solid #5a5a88 !important; /* Mysterious border color */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #1c1c44; /* Darker cosmic background */
+    border: 5px solid #5a5a88; /* Mysterious border color */
+    padding: 20px;
+    color: #c1c1f5 !important; /* Pale starlight text */
+    border-radius: 10px; /* Rounded corners */
+    background-image: url('https://peri.vampyrebytes.com/img/seamless-nebula-texture.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: cover;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}

@@ -1,0 +1,110 @@
+/* Importing fonts that give a mythological vibe */
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=EB+Garamond:wght@400;700&display=swap');
+/* Importing the Spectral SC font */
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@700&display=swap');
+
+
+/* General styling */
+body {
+    background-color: #f4f1de; /* Parchment-like background */
+    color: #3d5a80; /* Deep blue text */
+}
+
+label {
+    color: #3d5a80 !important; /* Deep blue text */
+}
+
+.sheet-body {
+    font-family: 'EB Garamond', serif; /* Classic serif font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #eae7dc; /* Slightly darker parchment background */
+    border: 5px solid #3d5a80; /* Deep blue border */
+
+    background-image: url('https://peri.vampyrebytes.com/img/WhiteMarble_COLOR.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: 50%; /* This will scale the image to half its original size */
+}
+
+/* Title styling */
+.sheet-title {
+    font-family: 'Spectral SC', serif; /* Formal and elegant serif font */
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #3d5a80; /* Deep blue text */
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5), /* White shadow to create depth */
+    -2px -2px 2px rgba(0, 0, 0, 0.2); /* Dark shadow to create depth */
+    letter-spacing: 1px; /* Slight spacing between letters */
+}
+
+/* Subtitle styling */
+.sheet-subtitle, h2 {
+    font-family: 'Spectral SC', serif; /* Formal and elegant serif font */
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #3d5a80; /* Deep blue text */
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5), /* White shadow to create depth */
+    -1px -1px 1px rgba(0, 0, 0, 0.2); /* Dark shadow to create depth */
+    letter-spacing: 1px; /* Slight spacing between letters */
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #3d5a80; /* Deep blue border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #3d5a80; /* Deep blue text */
+}
+
+input,
+textarea,
+select {
+    background-color: #f4f1de; /* Parchment-like background */
+    color: #3d5a80; /* Deep blue text */
+    border: 2px solid #3d5a80; /* Deep blue border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #3d5a80 !important; /* Deep blue background */
+    color: #f4f1de !important; /* Parchment-like text */
+    border: 2px solid #3d5a80 !important; /* Deep blue border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #eae7dc; /* Slightly darker parchment background */
+    border: 5px solid #3d5a80; /* Deep blue border */
+    padding: 20px;
+    color: #3d5a80 !important; /* Deep blue text */
+
+    background-image: url('https://peri.vampyrebytes.com/img/white-on-white-background.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: 75%; /* This will scale the image to half its original size */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA;
+}

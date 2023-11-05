@@ -1,0 +1,109 @@
+<div class="sheet-body">
+  <h1 class="sheet-title">SAGAS Character Sheet</h1>
+  <div class="sheet-section">
+    <h2 class="sheet-subtitle">Character Info</h2>
+    <label>Character Name: <input type="text" name="attr_character_name"/></label>
+    <button type="roll" value="&{template:sagas} {{name=@{character_name} is rolling for ?{Activity|}}} {{Roll=[[?{Number of Dice|1}d?{Die Type|12|6|8|10|12}kl1]]}} {{Difficulty=?{Difficulty|5|1|2|3|4|5|6|7|8}}}"> Make a Check</button>
+    <div class="sheet-stat">
+      <label>
+        Health:
+        <input type="number" name="attr_hp" value="2"/> (current) /
+        <input type="number" name="attr_hp_max" value="2"/> (max)
+      </label>
+    </div>
+    <div class="sheet-stat">
+      <label>
+        Effort:
+        <input type="number" name="attr_effort" value="2"/> (current) /
+        <input type="number" name="attr_effort_max" value="2"/> (max)
+      </label>
+    </div>
+    <div class="section">
+      <h2>Traits</h2>
+      <fieldset class="repeating_traits">
+        <div class="form-group">
+          <label>Trait: <input type="text" name="attr_traits" placeholder="Trait"></label>
+          <label>Affected Check: <input type="text" name="attr_traits_check" placeholder="Affected Check"></label>
+          <label>Die Used: <input type="text" name="attr_traits_die" placeholder="Die Used" size="5"></label>
+          <label>Description: <textarea name="attr_traits_desc" placeholder="Description"></textarea></label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="section">
+      <h2>Struggles</h2>
+      <fieldset class="repeating_struggles">
+        <div class="form-group">
+          <label>Struggle: <input type="text" name="attr_struggles" placeholder="Struggle"></label>
+          <label>Affected Check: <input type="text" name="attr_struggles_check" placeholder="Affected Check"></label>
+          <label>Die Used: <input type="text" name="attr_struggles_die" placeholder="Die Used" size="5"></label>
+          <label>Description: <textarea name="attr_struggles_desc" placeholder="Description"></textarea></label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="section">
+      <h2>Talents</h2>
+      <fieldset class="repeating_talents">
+        <div class="form-group">
+          <label>Talent: <input type="text" name="attr_talents" placeholder="Talent"></label>
+          <label>Rank: <select name="attr_talents_rank">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select></label>
+          <label>Affected Check/Ability: <input type="text" name="attr_talents_check" placeholder="Affected Check/Ability"></label>
+          <label>Description: <textarea name="attr_talents_desc" placeholder="Description"></textarea></label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="section">
+      <h2>Powers</h2>
+      <fieldset class="repeating_powers">
+        <div class="form-group">
+          <label>Power: <input type="text" name="attr_powers" placeholder="Power"></label>
+          <label>Rank: <select name="attr_powers_rank">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select></label>
+          <label>Casting Components: <input type="text" name="attr_powers_components" placeholder="Casting Components"></label>
+          <label>Affected Check/Ability: <input type="text" name="attr_powers_check" placeholder="Affected Check/Ability"></label>
+          <label>Description: <textarea name="attr_powers_desc" placeholder="Description"></textarea></label>
+        </div>
+      </fieldset>
+    </div>
+    <div class="section">
+      <h2>Equipment</h2>
+      <fieldset class="repeating_equipment">
+        <div class="form-group">
+          <label>Equipment: <input type="text" name="attr_equipment" placeholder="Equipment"></label>
+          <label>Affected Check: <input type="text" name="attr_equipment_check" placeholder="Affected Check"></label>
+          <label>Description: <textarea name="attr_equipment_desc" placeholder="Description"></textarea></label>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<rolltemplate class="sagas">
+  <div class="sheet-rolltemplate-sagas">
+    <div class="sheet-rollresult">
+      <strong>{{name}}</strong>
+      <p>Roll: <span class="sheet-actualroll">{{Roll}}</span></p>
+      <p>Difficulty: {{Difficulty}}</p>
+      <p>If the roll result is less than or equal to the difficulty, the check is successful. Otherwise, the check fails.</p>
+    </div>
+  </div>
+</rolltemplate>

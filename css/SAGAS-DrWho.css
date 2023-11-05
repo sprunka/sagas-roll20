@@ -1,0 +1,109 @@
+/* Importing a font similar to the Doctor Who logo */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+/* General styling */
+body {
+    background-color: #003A6E; /* TARDIS blue */
+    color: #D4AF37; /* Gold text */
+}
+
+label {
+    color: #D4AF37 !important; /* Gold text */
+}
+
+.sheet-body {
+    font-family: 'Kanit', sans-serif; /* Doctor Who-like font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #000; /* Dark background for the control panel */
+    border: 5px solid #003A6E; /* TARDIS blue border */
+    box-shadow: 0px 0px 20px #D4AF37; /* Gold glow */
+
+    background-image: url('https://peri.vampyrebytes.com/img/seamless-starfield-texture.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: 50%; /* This will scale the image to half its original size */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #D4AF37; /* Gold text */
+    text-shadow: 0px 0px 10px #D4AF37; /* Gold glow */
+    animation: glow 1s infinite alternate; /* Optional pulsing glow */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #D4AF37; /* Gold text */
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 5px #D4AF37; /* Subtle gold glow */
+
+}
+
+/* Optional pulsing glow animation for <h1> */
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 5px #D4AF37;
+    }
+    to {
+        text-shadow: 0px 0px 15px #D4AF37;
+    }
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #003A6E; /* TARDIS blue border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #D4AF37; /* Gold text */
+}
+
+input,
+textarea,
+select {
+    background-color: #003A6E; /* TARDIS blue background */
+    color: #D4AF37; /* Gold text */
+    border: 2px solid #D4AF37; /* Gold border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #B8860B !important; /* Darker gold background */
+    color: #003A6E !important; /* TARDIS blue text */
+    border: 2px solid #D4AF37 !important; /* Gold border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #000; /* Dark background */
+    border: 5px solid #003A6E; /* TARDIS blue border */
+    padding: 20px;
+    color: #D4AF37 !important; /* Gold text */
+
+    background-image: url('https://peri.vampyrebytes.com/img/seamless-starfield-texture.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: 50%; /* This will scale the image to half its original size */
+}
+
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}

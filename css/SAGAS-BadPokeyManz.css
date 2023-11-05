@@ -1,0 +1,97 @@
+/* Importing a more dynamic font */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap');
+
+/* General styling */
+body {
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+label {
+    color: #333 !important; /* Dark grey text */
+}
+
+.sheet-body {
+    font-family: 'Zilla Slab', serif; /* Bold and dynamic font */
+    font-weight: 700; /* Bold weight */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ff0000; /* Bold red background */
+    border: 3px solid #ffcc00; /* Bold yellow border */
+    box-shadow: 0px 0px 10px #ffcc00; /* Bold yellow glow */
+    border-radius: 15px; /* Rounded corners */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffffff; /* White text for contrast */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #ffffff; /* White text for contrast */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #4db6ac; /* Turquoise border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #ffffff; /* White text for better contrast */
+}
+
+input,
+textarea,
+select {
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark grey text */
+    border: 2px solid #4db6ac; /* Turquoise border */
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.custom-button {
+    background-color: #4db6ac !important; /* Turquoise background */
+    color: #f56991 !important; /* Bright pink text */
+    border: 2px solid #4db6ac !important; /* Turquoise border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+    border-radius: 5px !important; /* Rounded corners */
+}
+
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #ffcc00; /* Bold yellow background to complement the body */
+    border: 3px solid #ff0000; /* Bold red border */
+    padding: 20px;
+    color: #333 !important; /* Dark grey text for contrast */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}

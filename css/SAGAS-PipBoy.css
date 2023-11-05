@@ -1,0 +1,90 @@
+/* Importing a font that gives a digital, monospace vibe */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* General styling */
+body {
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Classic green text */
+}
+
+label {
+    color: #00ff00 !important; /* Classic green text */
+}
+
+.sheet-body {
+    font-family: 'Press Start 2P', cursive; /* Retro video game font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #000; /* Black background for the control panel */
+    border: 5px solid #00ff00; /* Classic green border */
+    box-shadow: 0px 0px 20px #00ff00; /* Green glow */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #00ff00; /* Classic green text */
+    text-shadow: 0px 0px 10px #00ff00; /* Green glow */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #00ff00; /* Classic green text */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #00ff00; /* Classic green border */
+    background-color: rgba(0, 255, 0, 0.1); /* Slight green transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #00ff00; /* Classic green text */
+}
+
+input,
+textarea,
+select {
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Classic green text */
+    border: 2px solid #00ff00; /* Green border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #00ff00 !important; /* Classic green background */
+    color: #000 !important; /* Black text */
+    border: 2px solid #00ff00 !important; /* Green border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #000; /* Black background */
+    border: 5px solid #00ff00; /* Classic green border */
+    padding: 20px;
+    color: #00ff00 !important; /* Classic green text */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Teal color for roll text */
+}

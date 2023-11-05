@@ -1,0 +1,88 @@
+/* Importing a font that gives an elegant, gothic vibe */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+/* General styling */
+body {
+    background-color: #1a1a1a; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+}
+
+label {
+    color: #e0e0e0 !important; /* Light grey text */
+}
+
+.sheet-body {
+    font-family: 'Cinzel', serif; /* Elegant serif font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #000; /* Black background for the control panel */
+    border: 5px solid #8b0000; /* Dark red border */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #8b0000; /* Dark red text */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #8b0000; /* Dark red text */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #8b0000; /* Dark red border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #8b0000; /* Dark red text */
+}
+
+input,
+textarea,
+select {
+    background-color: #1a1a1a; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    border: 2px solid #8b0000; /* Dark red border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #8b0000 !important; /* Dark red background */
+    color: #e0e0e0 !important; /* Light grey text */
+    border: 2px solid #8b0000 !important; /* Dark red border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #000; /* Black background */
+    border: 5px solid #8b0000; /* Dark red border */
+    padding: 20px;
+    color: #e0e0e0 !important; /* Light grey text */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Teal color for roll text */
+}

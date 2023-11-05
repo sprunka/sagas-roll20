@@ -1,0 +1,103 @@
+/* Importing a font that gives a digital, futuristic vibe */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+/* General styling */
+body {
+    background-color: #0f0f0f; /* Dark grey background */
+    color: #0ff; /* Bright cyan text */
+}
+
+label {
+    color: #0ff !important; /* Bright cyan text */
+}
+
+.sheet-body {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #121212; /* Darker background for the control panel */
+    border: 5px solid #0ff; /* Bright cyan border */
+    box-shadow: 0px 0px 20px #0ff; /* Cyan glow */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #0ff; /* Bright cyan text */
+    text-shadow: 0px 0px 10px #0ff; /* Cyan glow */
+    animation: glow 1s infinite alternate; /* Optional pulsing glow */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #0ff; /* Bright cyan text */
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 5px #0ff; /* Subtle cyan glow */
+}
+
+/* Optional pulsing glow animation for <h1> */
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 5px #0ff;
+    }
+    to {
+        text-shadow: 0px 0px 15px #0ff;
+    }
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #0ff; /* Bright cyan border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #0ff; /* Bright cyan text */
+}
+
+input,
+textarea,
+select {
+    background-color: #0f0f0f; /* Dark grey background */
+    color: #0ff; /* Bright cyan text */
+    border: 2px solid #0ff; /* Cyan border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #0ff !important; /* Bright cyan background */
+    color: #0f0f0f !important; /* Dark grey text */
+    border: 2px solid #0ff !important; /* Cyan border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #121212; /* Dark background */
+    border: 5px solid #0ff; /* Bright cyan border */
+    padding: 20px;
+    color: #0ff !important; /* Bright cyan text */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA;
+}

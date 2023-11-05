@@ -1,0 +1,123 @@
+/* Importing a Gothic font */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/* General styling */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+label {
+    color: #333 !important; /* Dark grey text */
+}
+
+.sheet-body {
+    font-family: 'Creepster', cursive; /* Gothic font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #e0e0e0; /* Slightly darker background */
+    border: 3px solid #333; /* Dark grey border */
+    box-shadow: 0px 0px 10px #666; /* Subtle shadow */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #333; /* Dark grey text */
+    text-shadow: 0px 0px 10px #00FF00; /* Slime-green glow */
+    animation: glow 1s infinite alternate; /* Pulsing glow */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #333; /* Dark grey text */
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 5px #00FF00; /* Subtle slime-green glow */
+}
+
+/* Pulsing glow animation */
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 5px #00FF00;
+    }
+    to {
+        text-shadow: 0px 0px 15px #00FF00;
+    }
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #e0e0e0; /* Light grey background */
+    border: 3px solid #333; /* Dark grey border */
+    padding: 20px;
+    color: #333 !important; /* Dark grey text */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #333; /* Dark grey border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #333; /* Dark grey text */
+}
+
+input,
+textarea,
+select {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
+    border: 2px solid #333; /* Dark grey border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #333 !important; /* Dark grey background */
+    color: #f0f0f0 !important; /* Light grey text */
+    border: 2px solid #333 !important; /* Dark grey border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #e0e0e0; /* Light grey background */
+    border: 3px solid #333; /* Dark grey border */
+    padding: 20px;
+    color: #333 !important; /* Dark grey text */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA;
+}

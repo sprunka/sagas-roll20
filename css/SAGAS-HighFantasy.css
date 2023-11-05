@@ -1,0 +1,123 @@
+/* Importing ornate fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Tangerine:wght@700&family=Beau+Rivage&display=swap');
+
+/* General styling */
+body {
+    background-color: #e0e0e0; /* Silver background */
+    color: #093145; /* Sapphire text */
+    font-family: 'Tangerine', cursive; /* Elegant cursive font for body */
+    font-size: 2em; /* Increased font size */
+}
+
+label {
+    color: #093145 !important; /* Sapphire text */
+}
+
+.sheet-body {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff; /* White background */
+    border: 5px solid #093145; /* Sapphire border */
+    border-radius: 15px; /* Rounded corners */
+    background-image: url('https://peri.vampyrebytes.com/img/paper-antique-seamless.jpg');
+    background-repeat: repeat; /* This will tile the image */
+}
+
+.sheet-title {
+    font-family: 'Cinzel Decorative', cursive; /* Ornate title font */
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #FFD700; /* Gold color */
+    background: -webkit-linear-gradient(45deg, #FFA500, #DAA520, #FFD700, #DAA520, #FFA500); /* Gradient to create a shiny effect */
+    -webkit-background-clip: text; /* Apply the background only to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent to show the background */
+    -webkit-text-stroke: 1px #8B4513; /* Dark brown stroke */
+}
+
+@keyframes glowTitle {
+    from {
+        text-shadow: 0 0 10px rgba(255, 215, 0, 0.3); /* Starting glow */
+    }
+    to {
+        text-shadow: 0 0 20px rgba(255, 215, 0, 0.7); /* Ending glow */
+    }
+}
+
+.sheet-title {
+    animation: glowTitle 1s ease-in-out infinite alternate; /* Glowing animation on hover */
+}
+
+
+
+.sheet-subtitle, h2 {
+    font-family: 'Beau Rivage', cursive; /* Elegant subtitle font */
+    font-size: 2.125em; /* Increased font size */
+    text-decoration: underline;
+    color: #093145; /* Sapphire text */
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px #0077cc; /* Intense blue glow */
+    animation: glowH2 1s ease-in-out infinite alternate;
+}
+
+/* Pulsing glow effect */
+@keyframes glowH2 {
+    from {
+        text-shadow: 0 0 5px #0077cc;
+    }
+    to {
+        text-shadow: 0 0 20px #0077cc;
+    }
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #093145; /* Sapphire border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #093145; /* Sapphire text */
+}
+
+input,
+textarea,
+select {
+    background-color: #ffffff;
+    color: #093145;
+    border: 2px solid #093145;
+    padding: 5px;
+    font-size: 1.25em;
+    line-height: 1.25;
+}
+
+.custom-button {
+    background-color: #093145 !important; /* Sapphire background */
+    color: #ffffff !important; /* White text */
+    border: 2px solid #093145 !important; /* Sapphire border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #ffffff; /* White background */
+    border: 5px solid #093145; /* Sapphire border */
+    padding: 20px;
+    color: #093145 !important; /* Sapphire text */
+    border-radius: 10px; /* Rounded corners */
+
+    background-image: url('https://peri.vampyrebytes.com/img/washi128x128.jpg');
+    background-repeat: repeat; /* This will tile the image */
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}

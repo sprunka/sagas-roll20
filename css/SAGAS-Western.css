@@ -1,0 +1,93 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+/* Importing the Rye font */
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+/* General styling */
+body {
+    background-color: #f4e1b5; /* Parchment background */
+    color: #6f573c; /* Brass text */
+    font-family: 'Playfair Display', serif; /* Elegant serif font for body */
+}
+
+.sheet-body {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9e8c0; /* Lighter parchment background */
+    border: 5px double #6f573c; /* Darker brass border */
+    border-radius: 15px; /* Rounded corners */
+    background-image: url('https://peri.vampyrebytes.com/img/Seamless-Wood-Texture-2.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: 75%; /* This will scale the image to half its original size */
+}
+
+.sheet-title {
+    font-family: 'Rye', cursive; /* Using Rye for the title font */
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #b5a642; /* Base brass color */
+    background: -webkit-linear-gradient(45deg, #d4b46a, #b5a642, #d4b46a, #b5a642, #d4b46a); /* Gradient to create a shiny brass effect */
+    -webkit-background-clip: text; /* Apply the background only to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent to show the background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Slight shadow to create depth */
+    -webkit-text-stroke: 0.5px #5a4a22; /* Darker stroke to make the lighter parts stand out */
+}
+
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #6f573c; /* Darker brass text */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px dashed #6f573c; /* Dashed darker brass border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+}
+
+label,
+input,
+textarea,
+select {
+    color: #6f573c !important; /* Darker brass text */
+    padding: 5px;
+    font-size: 16px;
+}
+
+input,
+textarea,
+select {
+    background-color: #f9e8c0; /* Lighter parchment background */
+    border: 2px solid #6f573c; /* Darker brass border */
+}
+
+.custom-button {
+    background-color: #6f573c !important; /* Darker brass background */
+    color: #2c1a0a !important; /* Darker wood text */
+    border: 2px solid #6f573c !important; /* Darker brass border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #f9e8c0; /* Lighter parchment background */
+    border: 5px solid #6f573c; /* Darker brass border */
+    padding: 20px;
+    color: #6f573c !important; /* Darker brass text */
+    border-radius: 10px; /* Rounded corners */
+    background-image: url('https://peri.vampyrebytes.com/img/Wood-Pattern-2.jpg');
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}

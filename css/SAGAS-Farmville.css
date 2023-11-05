@@ -1,0 +1,95 @@
+/* Importing a playful font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+/* General styling */
+body {
+    background-color: #e0f2f1; /* Soft teal background */
+    color: #546e7a; /* Dark teal text */
+}
+
+label {
+    color: #546e7a !important; /* Dark teal text */
+}
+
+.sheet-body {
+    font-family: 'Comic Neue', cursive; /* Playful font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #4caf50; /* Grass-green background */
+    border: 3px solid #ffab40; /* Soft orange border */
+    box-shadow: 0px 0px 10px #ffab40; /* Soft orange glow */
+    border-radius: 15px; /* Rounded corners */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffffff; /* White text for better contrast */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #ffffff; /* White text for better contrast */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ffab40; /* Soft orange border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #ffffff; /* White text for better contrast */
+}
+
+input,
+textarea,
+select {
+    background-color: #e0f2f1; /* Soft teal background */
+    color: #546e7a; /* Dark teal text */
+    border: 2px solid #ffab40; /* Soft orange border */
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.custom-button {
+    background-color: #ffab40 !important; /* Soft orange background */
+    color: #4caf50 !important; /* Grass-green text */
+    border: 2px solid #ffab40 !important; /* Soft orange border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+    border-radius: 5px !important; /* Rounded corners */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    background-color: #e0f2f1; /* Soft teal background to match the body */
+    border: 3px solid #4caf50; /* Grass-green border */
+    padding: 20px;
+    color: #546e7a !important; /* Dark teal text to match the body text */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.sheet-rolltemplate-sagas strong {
+    font-size: 1.2em;
+}
+
+.sheet-rolltemplate-sagas p {
+    margin: 10px 0;
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}

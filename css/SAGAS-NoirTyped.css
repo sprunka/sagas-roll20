@@ -1,0 +1,90 @@
+/* Importing the Special Elite font */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+/* General styling */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #1c1c1c; /* Dark grey text */
+}
+
+label {
+    color: #1c1c1c !important; /* Dark grey text */
+}
+
+.sheet-body {
+    font-family: 'Special Elite', monospace; /* Distressed typewriter font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff; /* White background */
+    border: 3px solid #1c1c1c; /* Dark grey border */
+    border-radius: 15px; /* Rounded corners */
+
+    background-image: url('https://peri.vampyrebytes.com/img/whitepaper512x512.jpg');
+    background-repeat: repeat; /* This will tile the image */
+    background-size: 50%; /* This will scale the image to half its original size */
+}
+
+.sheet-title {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #1c1c1c; /* Dark grey text */
+}
+
+.sheet-subtitle, h2 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    color: #1c1c1c; /* Dark grey text */
+    padding-bottom: 10px;
+}
+
+.sheet-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #1c1c1c; /* Dark grey border */
+}
+
+.sheet-section h2 {
+    margin-top: 0;
+    color: #1c1c1c; /* Dark grey text */
+}
+
+input,
+textarea,
+select {
+    background-color: #ffffff; /* White background */
+    color: #1c1c1c; /* Dark grey text */
+    border: 2px solid #1c1c1c; /* Dark grey border */
+    padding: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #1c1c1c !important; /* Dark grey background */
+    color: #f0f0f0 !important; /* Light grey text */
+    border: 2px solid #1c1c1c !important; /* Dark grey border */
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: normal !important; /* Removes bold */
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-bottom: 10px !important; /* Adds space under the button */
+}
+
+/* Roll template styling */
+.sheet-rolltemplate-sagas {
+    font-family: 'Special Elite', monospace; /* Distressed typewriter font */
+    background-color: #2d2d2d; /* Slightly darker grey background */
+    border: 3px solid #f0f0f0; /* Light grey border */
+    padding: 20px;
+    color: #1c1c1c !important; /* Dark grey text */
+    border-radius: 10px; /* Rounded corners */
+
+    background-image: url('https://peri.vampyrebytes.com/img/oldpaper256x256.jpg');
+    background-repeat: repeat; /* This will tile the image */
+}
+
+.sheet-rolltemplate-sagas span.sheet-actualroll span {
+    color: #20B2AA; /* Specific color for roll template */
+}
